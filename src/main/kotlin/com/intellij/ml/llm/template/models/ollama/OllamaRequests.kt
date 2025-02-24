@@ -20,6 +20,8 @@ open class OllamaBaseRequest<Body>(body: Body) : LLMBaseRequest<Body>(body) {
 
     private val url = settings.getOllServer().ifBlank{ "http://127.0.0.1:$PORT/api/generate" }
 
+    //
+
 
     val logger = Logger.getInstance(OllamaBaseRequest::class.java)
     init{
