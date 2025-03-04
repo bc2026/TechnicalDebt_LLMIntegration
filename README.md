@@ -20,10 +20,6 @@ IntelliJ-based IDEs.
 
 
 # Ollama
-Help on how to set up an Ollama server 
-## Ollama Server
-
-A guide to installing and running an Ollama server for local large language model inference.
 
 ## What is Ollama?
 
