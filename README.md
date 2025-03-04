@@ -9,15 +9,17 @@ IntelliJ-based IDEs.
 
 - [Getting started](#getting-started)
 
-# Getting started
+# OpenAI
 
 - Sign up for OpenAI at https://beta.openai.com/signup
 - Get your OpenAI API key
 - Go to Settings | Tools | Large Language Models and enter your API key in the "OpenAI Key" field. If you are a member
   of only one organization, leave the "OpenAI Organization" field empty
-- Select a code fragment, press Alt-Enter and select "apply custom edit" intention
-- Write an instruction for the LLM and wait for the result
 
+# Gemini
+- Sign up for OpenAI at https://aistudio.google.com/apikey
+- Get your Gemini API key
+- Go to Settings | Tools | Large Language Models and enter your API key in the "Gemini Key" field.
 
 # Ollama
 
@@ -181,7 +183,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ### macOS/Windows
 
-Download and install the latest version from the [Ollama website](https://ollama.com/download).
+Update to the latest version from the [Ollama website](https://ollama.com/download).
 
 ## Troubleshooting
 
