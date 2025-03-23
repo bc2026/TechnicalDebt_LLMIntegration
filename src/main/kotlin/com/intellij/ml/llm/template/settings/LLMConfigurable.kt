@@ -104,7 +104,6 @@ class LLMConfigurable : BoundConfigurable(LLMBundle.message("settings.configurab
     }
     override fun apply() {
         super.apply()
-        updateVisibility()
     }
 }
 
